@@ -29,6 +29,14 @@
             <version>4.11</version>
             <scope>test</scope>
         </dependency>
+        
+		<!-- spring framework 4.3.7-->
+	    <dependency>
+	        <groupId>org.springframework</groupId>
+	        <artifactId>spring-context</artifactId>
+	        <version>4.3.7.RELEASE</version>
+	    </dependency>
+        
     </dependencies>
     <build>
         <finalName>${project.artifactId}-${project.version}</finalName>
